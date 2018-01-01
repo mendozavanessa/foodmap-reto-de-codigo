@@ -1,25 +1,38 @@
-# Foodmap
 
-## Objetivos
+## FOODMAP
 
-El presente trabajo tiene como objetivo ser una guía en donde se pone en practica:
+### Objetivos
 
-- Selección del DOM a través de la sintaxis de jQuery.
+Crea una web-app que a través de un input pueda filtrar los restaurantes que se encuentran cerca de ti (Tú decides la estructura que tendrán tus datos, puedes crear una lista de restaurantes en un arreglo, en un objeto, de manera individual. El diseño es totalmente libre).
 
-- Mostrar comprensión en el uso de eventos y selectores básicos de jQuery.
+#### FLUJO DE LA APLICACIÓN
 
-- Optimizar la validación de los inputs de un formulario a través de expresiones-regulares
+Vista splash con duración de 2 a 5 segundos que redirecciona a tu vista principal.
 
-- Utilizar localStorage para persintencia de data.
+![logo](https://raw.githubusercontent.com/AnaSalazar/curricula-js/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/splash.jpg)
 
-- Implementar las diferentes vistas de un app-web
+En la vista principal se muestran todos los restaurantes "cerca de ti" junto con el input para filtrar tu elección (Los criterios de filtrado son decisión tuya, puede ser por tipo de comida, costos, orden alfabético, etc.).
 
-## Flujo de la aplicación
-![botones de Control](assets/20171227_014957.gif)
 
-## Desarrollado con:
+![logo](https://raw.githubusercontent.com/AnaSalazar/curricula-js/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/2.jpg)
 
-`HTML5` `Jquery` `CSS3` `Bootstrap`
+Ya que se hizo la elección del filtro deben mostrarse únicamente aquellos restaurantes que cumplan con la condición.
 
-##  Créditos
-* 
+![logo](https://raw.githubusercontent.com/AnaSalazar/curricula-js/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/3.jpg)
+
+Agrega un evento mouseover a las imágenes, lo que pase con el efecto es decisión tuya (Cambio de tamaño, muestra de texto, cambio de imagen, información, etc)
+
+![logo](https://lms.laboratoria.la/cohorts/lim-2017-09-bc-core-pm/courses/social-network/02-jquery/08-code-challenges)
+
+Al seleccionar alguno de los restaurantes, deberá mostrarse la información de este a través de un modal.
+
+![logo](https://raw.githubusercontent.com/AnaSalazar/curricula-js/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/5.jpg)
+
+Una vez cerrado el modal debe volver a la vista principal.
+
+![logo](https://raw.githubusercontent.com/AnaSalazar/curricula-js/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/6.jpg)
+
+
+### **Alumna**
+
+>##### Vanessa Mendoza Inoñan
