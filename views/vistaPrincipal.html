@@ -15,26 +15,42 @@
 			<div class="row">
 				<div class="col-xs-12">
           <h1 class="yellow foodmap centrar flex">Foodmap</h1>
-          <hr>
+					<div class="cont-cuadrado">
+            <div class="cuadrado"></div>
+            <div class="linea"></div>
+            <div class="cuadrado"></div>
+          </div>
+					<br>
           <div class="flex centrar">
           	<img src="../assets/img/mapa.jpg" alt="mapa">
           </div>
           <h2 class="yellow  centrar flex">Comida cerca de ti</h2>
           <div class="flex centrar white box-input">
-            <input type="text" placeholder="filtrar restaurantes">
+            <input id="input-distrito" type="text" placeholder="filtrar restaurantes">
 						<span class="icon-search"></span>
           </div>
+					<br>
+					<p id="ubicacion" class="yellow">restaurantes</p>
 					<div>
-						<img src="" alt="">
-						<img src="" alt="">
-						<img src="" alt="">
-						<img src="" alt="">
+						<ul class="yellow">
+							<li id="primero"></li>
+							<li id="segundo"></li>
+						</ul>
+					</div>
+					<div>
+						<img id="img1" src="" alt="">
+						<img id="img2" src="" alt="">
+					</div>
+					<div>
+						<img id="img3" src="" alt="">
+						<img id="img4" src="" alt="">
 					</div>
 				</div>
 			</div>
 		</div>
 	</main>
 	<script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../js/data.js"></script>
 	<script src="../js/vistaPrincipal.js"></script>
 </body>
 </html>
