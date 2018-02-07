@@ -1,7 +1,7 @@
 var data = {
   'Comas': {
     'Paladar': {
-      'ceviche':{
+      'ceviche': {
         'photo': 'assets/img/ceviche.jpg'
       },
       'mariscos': {
@@ -9,7 +9,7 @@ var data = {
       },
     },
     'Tiburon': {
-      'tiradito':{
+      'tiradito': {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
       'jalea': {
@@ -19,7 +19,7 @@ var data = {
   },
   'Breña': {
     'Cholita': {
-      'olluquito':{
+      'olluquito': {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
       'caucau': {
@@ -27,7 +27,7 @@ var data = {
       },
     },
     'Costillitas': {
-      'costillar':{
+      'costillar': {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
       'anticuchos': {
@@ -37,7 +37,7 @@ var data = {
   },
   'Miraflores': {
     'Antojitos': {
-      'ommelet':{
+      'omelet': {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
       'milanesa': {
@@ -45,7 +45,7 @@ var data = {
       },
     },
     'Tentaciones': {
-      'chuletaAsada':{
+      'chuleta': {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
       'salpicon': {
@@ -55,18 +55,18 @@ var data = {
   },
   'Lince': {
     'PizzaHut': {
-      'peperoni':{
+      'peperoni': {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
-      'huwaiana': {
+      'hawuaiana': {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
     },
     'Fogon': {
-      'chicharron':{
+      'chicharron': {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
-      'parrillas': {
+      'parrilla': {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
     },
