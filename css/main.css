@@ -135,6 +135,13 @@ h2 {
   cursor: pointer!important;
 }
 @media (max-width: 768px){
+  .input-group span {
+    padding: 0 1em;
+  }
+  .input-group input {
+    padding: 1em;
+    font-size: 1.5em;
+  }
   .restaurantes li {
     font-size: 1em;
     margin: 0.5em 1.5em;
