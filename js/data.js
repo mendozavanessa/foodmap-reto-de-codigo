@@ -1,6 +1,6 @@
 var data = {
-  'Comas': {
-    'Paladar': {
+  'surco': {
+    'paladar': {
       'ceviche': {
         'photo': 'assets/img/ceviche.jpg'
       },
@@ -8,7 +8,7 @@ var data = {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff'
       },
     },
-    'Tiburon': {
+    'tiburon': {
       'tiradito': {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
@@ -17,8 +17,8 @@ var data = {
       },
     },
   },
-  'Breña': {
-    'Cholita': {
+  'breña': {
+    'cholita': {
       'olluquito': {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
@@ -26,7 +26,7 @@ var data = {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
     },
-    'Costillitas': {
+    'costillitas': {
       'costillar': {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
@@ -35,8 +35,8 @@ var data = {
       },
     },
   },
-  'Miraflores': {
-    'Antojitos': {
+  'miraflores': {
+    'antojitos': {
       'omelet': {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
@@ -44,7 +44,7 @@ var data = {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
     },
-    'Tentaciones': {
+    'tentaciones': {
       'chuleta': {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
@@ -53,8 +53,8 @@ var data = {
       },
     },
   },
-  'Lince': {
-    'PizzaHut': {
+  'lince': {
+    'pizzahut': {
       'peperoni': {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
@@ -62,7 +62,7 @@ var data = {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
     },
-    'Fogon': {
+    'fogon': {
       'chicharron': {
         'photo': 'http://dummyimage.com/162x148.png/ff4444/ffffff',
       },
@@ -72,3 +72,48 @@ var data = {
     },
   },
 };
+
+/* var data = [
+  {
+    'comas': {
+      'paladar': {
+        'ceviche': 'img',
+        'mariscos': 'img'
+      },
+      'tiburon': {
+        'tiradito': 'img',
+        'jalea': 'img'
+      }
+    },
+    'breña': {
+      'cholita': {
+        'olluquito': 'img',
+        'caucau': 'img'
+      },
+      'costillitas': {
+        'costillar': 'img',
+        'anticuchos': 'img',
+      }
+    },
+    'lince': {
+      'pizzhut': {
+        'peperoni': 'img',
+        'hawuaiana': 'img'
+      },
+      'fogon': {
+        'chicharron': 'img',
+        'parrilla': 'img'
+      }
+    },
+    'miraflores': {
+      'antojitos': {
+        'omelet': 'img',
+        'milanesa': 'img'
+      },
+      'tentaciones': {
+        'chuleta': 'img',
+        'salpicon': 'img'
+      }
+    }
+  }, 
+]; */

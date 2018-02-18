@@ -21,25 +21,6 @@
             <div class="cuadrado"></div>
           </div>
 					<br>
-          <div>
-          	<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15601.50026064973!2d-76.9585448!3d-12.1548486!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1514426864490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="col-xs-12"></iframe>
-          </div>
-					<h2 class="yellow center">Comida cerca de ti</h2>
-					<p id="error" class="yellow" hidden>Datos invalidos. Ingrese : Comas, Lince, Breña y Miraflores</p>
-          <div class="row">
-						<div class="input-group">
-							<span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
-							<input id="input-distrito" type="text" class="form-control" placeholder="filtrar restaurantes">
-						</div>
-          </div>
-					<br>
-					<h2 id="ubicacion" class="yellow center">RESTAURANTES</h2>
-					<div>
-						<ul class="yellow restaurantes" hidden>
-							<li id="primero"></li>
-							<li id="segundo"></li>
-						</ul>
-					</div>
 					<div id="myCarousel" class="carousel slide" data-ride="carousel" show>
 					  <!-- Wrapper for slides -->
 					  <div class="carousel-inner">
@@ -56,15 +37,35 @@
 					    </div>
 					  </div>
 					</div>
+					<h2 class="yellow center">Comida cerca de ti</h2>
+					<p id="error" class="yellow" hidden>Datos invalidos. Ingrese : Surco, Lince, Breña y Miraflores</p>
+          <div class="row">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+							<input id="input-distrito" type="" class="form-control" placeholder="filtrar restaurantes">
+						</div>
+					</div>
+					<div class="row">
+							<h2 id="ubicacion" class="yellow center"></h2>
+							<ul class="yellow restaurantes col-md-12" hidden>
+									<li class="col-md-offset-3 col-xs-offset-0" id="primero">
+									</li>
+									<li class="col-md-offset-3 col-xs-offset-0" id="segundo">
+									</li>
+							</ul>
+						</div>
 					<div class="row images">
-						<div class="col-lg-12 flex">
-							<img id="img1" class="img-responsive img-circle " alt="" data-toggle="modal" data-target="#myModal">
-							<img id="img2" class="img-responsive img-circle " alt="" data-toggle="modal" data-target="#myModal">
+						<div class="col-md-12">
+							<img id="img1" class="img-responsive img-circle" alt="" data-toggle="modal" data-target="#myModal">
+							<img id="img2" class="img-responsive img-circle" alt="" data-toggle="modal" data-target="#myModal">
 						</div>
-						<div class="col-lg-12 flex">
-							<img id="img3" class="img-responsive img-circle " alt="" data-toggle="modal" data-target="#myModal">
-							<img id="img4" class="img-responsive img-circle " alt="" data-toggle="modal" data-target="#myModal">
-						</div>
+					</div>
+					<div class="row">
+							<div class="col-md-12">
+									<div>
+											<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15601.50026064973!2d-76.9585448!3d-12.1548486!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1514426864490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="col-xs-12"></iframe>
+									</div>
+							</div>
 					</div>
 				</div>
 			</div>
@@ -77,13 +78,18 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title">Modal Header</h4>
+					<h2 class="text-center blanco">A COMER!!!</h2>
 				</div>
-				<div class="modal-body">
-					<p>Some text in the modal.</p>
+				<div class="modal-body text-center">
+					<div>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15601.50026064973!2d-76.9585448!3d-12.1548486!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1514426864490" width="600" height="200" frameborder="0" style="border:0" allowfullscreen class="col-xs-12"></iframe>
+					</div>
+					<span> <strong>Av.San Luis cdra.22</strong> </span>
+					<br>
+					<span> <strong>Telefono: 348-456</strong> </span>
 				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<div class="modal-footer flex" style="justify-content:center">
+					<button type="button" class="btn btn-default btn-lg" data-dismiss="modal">PEDIR</button>
 				</div>
 			</div>
 		</div>
