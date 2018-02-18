@@ -3,7 +3,7 @@
 
 Foodmap es una app para buscar las variedades de platos cerca de ti. Ingresa el distrito para encontrar tu plato favorito.
 
-![vistaFinal](../assets/img/readme1.png)
+![vistaFinal](assets/img/readme1.png)
 
 
 ## Desarrollado para 
