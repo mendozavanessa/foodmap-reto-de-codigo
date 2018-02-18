@@ -154,4 +154,7 @@ h2 {
   .images img:hover{
     border: 5px solid white;
   }
+  .vistaPlash {
+    margin: 50% auto;
+  }
 }
