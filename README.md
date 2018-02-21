@@ -3,8 +3,7 @@
 
 Foodmap es una app para buscar las variedades de platos cerca de ti. Ingresa el distrito para encontrar tu plato favorito.
 
-![vistaFinal](assets/img/readme1.png)
-
+![image](https://user-images.githubusercontent.com/32309424/36494281-9ba6fb9e-16ff-11e8-9171-a2e1f6c25d75.png)
 
 ## Desarrollado para 
 [Laboratoria](http://laboratoria.la)
@@ -37,7 +36,11 @@ Una vez cerrado el modal debe volver a la vista principal.
 
 ![logo](https://raw.githubusercontent.com/AnaSalazar/curricula-js/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/6.jpg)
 
+Vista completa 
 
-### **Alumna**
+![vistaFinal](assets/img/readme1.png)
 
->##### Vanessa Mendoza Inoñan
+
+### Programado por
+
+[Vanessa Mendoza Inoñan](https://github.com/mendozavanessa)
